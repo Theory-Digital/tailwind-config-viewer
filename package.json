@@ -13,7 +13,8 @@
     "prepublishOnly": "npm run lint --no-fix && npm run build",
     "lint": "vue-cli-service lint",
     "test": "echo \"No test specified\"",
-    "version": "npm run build:docs && git add docs"
+    "version": "npm run build:docs && git add docs",
+    "tailwind-config-viewer": "tailwind-config-viewer -o"
   },
   "bin": {
     "tailwind-config-viewer": "./cli/index.js",
@@ -62,6 +63,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.3",
+    "tailwind-config-viewer": "^1.5.1",
     "tailwindcss": "^1.4.4",
     "tailwindcss-dark-mode": "^1.1.6",
     "vue": "^2.6.10",
